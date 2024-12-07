@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T17:21:25 IST" name="First Suite" finished-at="2023-09-20T17:21:26 IST" duration-ms="361">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T17:21:25 IST" name="example.test" finished-at="2023-09-20T17:21:25 IST" duration-ms="23">
+    </test> <!-- example.test -->
+    <test started-at="2023-09-20T17:21:26 IST" name="Chromespecifictests" finished-at="2023-09-20T17:21:26 IST" duration-ms="97">
+      <class name="com.testng.test.MultipleBrowserTest">
+        <test-method signature="runInBrowser(java.lang.String)[pri:0, instance:com.testng.test.MultipleBrowserTest@543588e6]" started-at="2023-09-20T17:21:26 IST" name="runInBrowser" finished-at="2023-09-20T17:21:26 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInBrowser -->
+      </class> <!-- com.testng.test.MultipleBrowserTest -->
+    </test> <!-- Chromespecifictests -->
+    <test started-at="2023-09-20T17:21:26 IST" name="Firefoxspecifictests" finished-at="2023-09-20T17:21:26 IST" duration-ms="8">
+      <class name="com.testng.test.MultipleBrowserTest">
+        <test-method signature="runInBrowser(java.lang.String)[pri:0, instance:com.testng.test.MultipleBrowserTest@51e69659]" started-at="2023-09-20T17:21:26 IST" name="runInBrowser" finished-at="2023-09-20T17:21:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firfox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInBrowser -->
+      </class> <!-- com.testng.test.MultipleBrowserTest -->
+    </test> <!-- Firefoxspecifictests -->
+  </suite> <!-- First Suite -->
+</testng-results>
